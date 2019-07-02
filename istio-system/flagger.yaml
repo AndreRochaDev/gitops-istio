@@ -13,6 +13,10 @@ spec:
     name: flagger
     version: 0.16.0
   values:
+    slack:
+      user: simple_jack
+      channel: proj-cloud-tech
+      url: https://hooks.slack.com/services/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
     metricsServer: http://prometheus.istio-system:9090
     image:
       repository: weaveworks/flagger
